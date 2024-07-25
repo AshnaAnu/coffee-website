@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Heaven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #FFF5E1; /* Background color */
+    color: #4B2E2E; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Primary font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    background-color: #4B2E2E; /* Navbar background color */
+    color: #FFFFFF; /* Navbar text color */
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    font-family: 'Playfair Display', serif; /* Secondary font */
+    font-size: 2rem;
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background-color: #D2B48C;
+    color: #4B2E2E;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.products {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.products h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.footer {
+    background-color: #4B2E2E; /* Footer background color */
+    color: #FFFFFF; /* Footer text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Coffee Heaven</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Your Daily Dose of Freshly Brewed Coffee</h2>
+                <p>Experience the best coffee in town, made with passion and love.</p>
+                <a href="#" class="btn">Explore Our Menu</a>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h2>Our Specialties</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="coffee1.jpg" alt="Espresso">
+                        <h3>Espresso</h3>
+                        <p>Rich and bold espresso with a smooth finish.</p>
+                    </div>
+                    <div class="product">
+                        <img src="coffee2.jpg" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <p>Perfectly balanced cappuccino with creamy foam.</p>
+                    </div>
+                    <div class="product">
+                        <img src="coffee3.jpg" alt="Latte">
+                        <h3>Latte</h3>
+                        <p>Classic latte with a hint of vanilla.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Coffee Heaven. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

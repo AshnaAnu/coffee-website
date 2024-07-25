@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- FavIcon  -->
+    <link rel="icon" type="image/png" href="https://www.pngkey.com/png/full/453-4536090_coffe-cup-png.png">
+
+    <!-- FontAwsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg p-2 "
+        style="background-color: rgb(87, 38, 38);position: sticky; top: 0; z-index: 1;">
+        <div class="container-fluid">
+            <a class="header-name" href="#">Koffeeee <i class="fa-solid fa-mug-saucer"></i> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fs-5 " aria-current="page" href="#"
+                            style="margin-left: 20px;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#about-coffeeee" style="margin-left: 20px;">About
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#types-coffee" style="margin-left: 20px;">Types</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#top-brands" style="margin-left: 20px;">Top Brands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#gallery-link" style="margin-left: 20px;">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#contact-us" style="margin-left: 20px;">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button id="header-button" class="btn btn-border px-3 text-light border">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner image  -->
+    <div id="banner">
+
+        <img src="https://images.pexels.com/photos/14432904/pexels-photo-14432904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="" width="100%" height="600px">
+
+        <!-- <div id="heading-div">
+
+                <h2>Caffeine and Kindness in Every Cup</h2>
+        
+            </div> -->
+        <div id="caffaine">
+            <h3>Caffeine and Kindness in Every Cup</h3>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- carousel  -->
+
+    <div id="heading-div">
+        <h2>Journey Through Coffee Culture</h2>
+    </div>
+
+
+
+    <div>
+        <div id="carouselExample" class="carousel slide my-3">
+            <div class="carousel-inner">
+                <div class="carousel-item active carousal1">
+                    <img src="https://images.pexels.com/photos/685527/pexels-photo-685527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        height="600px" class="d-block w-100" alt="...">
+                    <p id="carousal-heading1">According to legend, coffee was discovered in the 9th century when an
+                        Ethiopian goat herder named Khaldi noticed that his normally lethargic goats were more excitable
+                        after they had nibbled the red berries from an evergreen tree. Khaldi took the berries to a
+                        Muslim holy man, who turned the raw fruit of the coffee tree into the delicious beverage.</p>
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        height="600px" class="d-block w-100" alt="...">
+                    <p id="carousal-heading2">Coffee was originally regarded as a wonder drug in Yemen and Arabia and
+                        was taken only at the advice of a doctor. Many saw coffee as a brain tonic or as a way to
+                        stimulate religious visions.</p>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" height="600px" alt="...">
+                    <p id="carousal-heading3">A 2011 study showed that women who drink two to three cups of caffeinated
+                        coffee a day were 15% less likely to develop depression over a 10-year period than those who
+                        drank one cup of coffee or less per week.</p>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!--  coffee  -->
+
+    <div id="coffee">
+        <div class="fd">
+            <h1>Coffee tastes better when it is Strong !</h1>
+            <h2>Do You Agree?</h2>
+            <div id="coffee-content" style="margin-top: 20px;">
+                <p id="coffee-para">Coffee is a popular beverage that researchers have studied extensively for its many
+                    health benefits, including its ability to increase energy levels, promote weight management, enhance
+                    athletic performance, and protect against chronic disease. The caffeine in coffee has been found in
+                    animal and cell studies to protect cells in the brain that produce dopamine. In a large prospective
+                    cohort of more than 500,000 people followed for 10 years, an association was found between drinking
+                    higher amounts of coffee and lower rates of death from all causes.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Coffee  -->
+    <div id="about-coffeeee">
+        <h3 id="about-coffee-heading">About Coffee</h3>
+        <div id="about-coffee-content">
+            <img src="https://images.pexels.com/photos/606545/pexels-photo-606545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" width="40%">
+            <p id="about-coffee-para">Coffee, a ubiquitous beverage enjoyed by millions around the world, boasts a rich
+                history, diverse
+                brewing
+                methods, and a complex interplay of flavors and aromas. From its humble origins in Ethiopia to its role
+                as a
+                cultural staple in many societies, coffee has become more than just a drink—it is a social lubricant, a
+                morning ritual, and a subject of scientific study.
+
+                Historical Background
+
+                The legend of coffee's discovery dates back to the 9th century in Ethiopia, where a goat herder named
+                Kaldi
+                observed his goats becoming unusually energetic after eating berries from a certain tree. Intrigued,
+                Kaldi
+                tried the berries himself and experienced a similar burst of energy. This discovery eventually reached
+                the
+                Arabian Peninsula, where coffee cultivation and trade began. By the 15th century, coffee was being grown
+                in
+                Yemen and consumed in Persia, Egypt, and Turkey.
+
+                Coffeehouses, known as "qahveh khaneh," became popular in the Middle East, serving as centers for social
+                interaction, intellectual exchange, and business transactions. These establishments spread to Europe in
+                the
+                17th century, starting in Venice and quickly proliferating in major cities like Paris, Vienna, and
+                London.
+                European colonists later introduced coffee to the Americas, where it thrived in the tropical climates of
+                the
+                Caribbean, Central America, and South America.</p>
+        </div>
+
+    </div>
+
+    <!-- Types of Coffee beans  -->
+    <div id="types-coffee">
+        <h3 id="about-coffee-heading">Types of Coffee Beans</h3>
+        <div class="type-of-coffee">
+            <div class="type1">
+                <img src="https://www.liveeatlearn.com/wp-content/uploads/2023/03/arabica-coffee-bean-768x791.jpg"
+                    alt="" width="25%" height="250px">
+                <p id="about-coffee-para"><b>ARABICA COFFEE BEANS</b>
+                    Arabica coffee beans are the most popular beans in the world, and there is evidence of Arabica plant
+                    growth over 3,000 years ago.
+
+                    Arabica beans are larger, sweeter, and more expensive than their prime competition, the Robusta. The
+                    added expense is because Arabica beans are harder to grow, needing more water, shade, and higher
+                    altitudes than the Robusta.
+
+                    Brazil is the leading producer of Arabica beans which typically grow at elevations between 500 and
+                    2500
+                    meters. They are not, however native to Brazil. Arabica beans are thought to have originated in
+                    Ethiopia. Their name comes from their use on the Arabian Peninsula, present day Saudi Arabia and
+                    Yemen,
+                    in the 7th Century.</p>
+            </div>
+            <hr>
+            <div class="type1">
+                <p id="about-coffee-para"> <b>ROBUSTA COFFEE BEANS</b>
+
+                    Robusta beans make up almost 40% of worldwide exports, and are grown in many of the same areas as
+                    Arabica beans to include much of Africa, Indonesia, and Vietnam. Their origin of Robusta beans is
+                    African.
+
+                    Robusta beans have a lower acidity than Arabica making them less sweet and the type most often used
+                    in
+                    espresso and in instant coffee. Robusta beans have almost double the caffeine content of Arabica
+                    beans
+                    and are known for a stronger and more bitter taste and smell.</p>
+                <img src="https://www.liveeatlearn.com/wp-content/uploads/2023/03/robusta-coffee-bean-768x791.jpg"
+                    alt="" width="25%" height="250px">
+
+            </div>
+            <hr>
+            <div class="type1" id="type3">
+                <img src="https://coffeeaffection.com/wp-content/uploads/2022/02/liberica-coffe-beans-on-white-cloth_eanjoseph_Shutterstock.jpg"
+                    alt="" width="20%" height="200px">
+                <p id="about-coffee-para"> <b>LIBERICA (COFFEA LIBERICA)</b>
+                    Liberica coffee is a less common species originally from the African country Liberia.
+
+                    Librica coffee plants are highly tolerant of tropical climates and lower altitudes, so they grow
+                    well
+                    across Southeast Asia in places like Indonesia and the Philippines.Liberica coffee beans have a
+                    distinctive oval shape with uneven sides and are larger than typical coffee beans.
+
+                    The Liberica plant itself is impressively tall, growing up to 60 feet high like a tree, unlike other
+                    coffee species that are more shrub-like. While not as widely consumed as Arabica and Robusta,
+                    Liberica
+                    is still appreciated by some coffee lovers for its unique flavor profile.</p>
+            </div>
+            <hr>
+            <div class="type1" id="type4">
+                <p id="about-coffee-para"><b>EXCELSA (COFFEA EXCELSA) </b>
+                    Excelsa was originally discovered in Central Africa in the early 1900s and was classified as its own
+                    species until 2005. After that, it was reclassified as a sub-variety of Coffea Liberica called
+                    Dewevrei.
+
+                    Excelsa beans have the least caffeine of all coffee types. It’s usually grown in Southeast Asia and
+                    added to blends to impart its exotic tarty flavors.The Excelsa coffee bean is much smaller and
+                    rounder
+                    compared to other species. The plants thrive at relatively low altitudes between 1,000-1,300 feet
+                    and
+                    can reach up to 50 feet tall. </p>
+                <img src="https://th.bing.com/th/id/OIP.9pv1GXapi0iGfjv1Gfn6FAHaE8?rs=1&pid=ImgDetMain" alt=""
+                    width="20%" height="200px">
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- Top Brands  -->
+
+    <div class="container">
+        <h3 id="about-coffee-heading" style="margin-bottom: 20px;">Top Brands</h3>
+
+        <div class="row">
+            <div class="col"> <img
+                    src="https://images.pexels.com/photos/10990310/pexels-photo-10990310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" width="100%" height="300px">
+                <h3>Nescafe </h3>
+                <p>Nescafe is a Swiss beverage
+                    company founded in 1938 that is one of the parent company’s largest brands.
+                    Nescafe delivers coffee in nearly every country on the planet and has a brand value of more than
+                    $20.4 billion as of April 2022.
+                    Nescafe is one of India’s best organic coffee brands.
+                    Arabica and Robusta beans are carefully selected and blended before roasting. The superior
+                    freeze-drying technique preserves every granule’s rich and robust coffee aroma and flavour. </p>
+            </div>
+            <div class="col"><img src="https://knsrestaurant.com/wp-content/uploads/2020/04/Bru-Coffee.jpg" alt=""
+                    width="100%" height="300px">
+                <h3>Bru</h3>
+                <p>When it comes to the best filter coffee brands in India, Bru is a household name. It was founded in
+                    1968 and has been producing high-quality coffee in the country.
+
+
+                    Bru was one of the first instant coffee brands in India to use chicory in their mix to improve the
+                    aroma and taste of their product, which received positive feedback. It has a distinct Arabica and
+                    Robusta flavour that lingers in the mouth and leaves you wanting more.
+
+                </p>
+            </div>
+            <div class="col"> <img
+                    src="https://m.media-amazon.com/images/S/aplus-media/sota/413288f6-c3c5-4f4d-b01a-8c2a747bd108.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>Davidoff </h3>
+                <p>Davidoff was created by combining elegance and Arabian coffee beans. Davidoff is one of the world’s
+                    most well-known luxury coffee brands, with a sizable Indian fan base.
+
+                    Zino Davidoff Group is a family-owned Swiss company specializing in watches, leather goods,
+                    clothing, and fragrances. It was established in 1980. Davidoff Coffee is delectable and available in
+                    a variety of flavours. All the additional flavours complement the coffee’s natural attractiveness.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><img src="https://imgmedia.lbb.in/media/2018/08/5b696bbfccf236787abadfc2_1533635519577.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>Blue Tokai </h3>
+                <p>Blue Tokai is the only Indian coffee brand that guarantees “farm to cup” coffee. It was founded by a
+                    South Indian couple who were missing their home-brewed coffee while living in Delhi. The company was
+                    founded in 2012 and is based in Delhi, India.
+
+                    It offers a wide range of coffee options and flavours that will make you never want to drink another
+                    cup of coffee again. The aroma of freshly roasted Arabica will entice you.</p>
+            </div>
+            <div class="col"><img
+                    src="https://www.tataconsumer.com/sites/g/files/gfwrlq316/files/COR%20590%20Tata-coffee-grand.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>Tata Coffee </h3>
+                <p>Tata Coffee, a subsidiary of Tata Consumer Goods, is one of the country’s most well-known instant
+                    coffee brands. In South India, the company currently operates 19 high-quality coffee estates.It was
+                    founded in 1922 and had a revenue of approximately Rs 7.39 billion in 2020. It has an exquisite and
+                    refreshing scent. It’s perfectly roasted and ground for a delicious flavour.
+
+                </p>
+            </div>
+            <div class="col"><img
+                    src="https://www.bigbasket.com/media/uploads/p/l/40135046-6_2-country-bean-coffee-instant-hazelnut-flavour.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>The Country Bean </h3>
+                <p>Country Bean has quickly become India’s new coffee sensation thanks to its unique and innovative
+                    coffee selections. It has a lovely filter-coffee aroma that is ideal for anyone who dislikes regular
+                    instant coffee powders and prefers filter coffee brands from India.
+
+                    Whether you like your espresso black or with cream, Country Bean has various options for you. Anish
+                    Satnaliwala and Aditi Somani Satnaliwala founded the company, which has seen rapid growth in recent
+                    years. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col"><img
+                    src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2022-01/Premium-Instant-Coffee.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>Sleepy Owl</h3>
+                <p>Sleepy Owl is a one-of-a-kind coffee company founded in 2016 by three friends, Arman Sood, Ashwajeet
+                    Singh, and Jai Thandi. The company has grown in popularity in the Indian market, and it was able to
+                    raise $500,000 in 2018. It’s famous for its delectable cold brew coffees, which are gaining
+                    popularity across the country. This brand offers a wide variety of fantastic coffee flavors.</p>
+            </div>
+            <div class="col"> <img
+                    src="https://5.imimg.com/data5/DI/XB/MY-279076/continental-xtra-coffee-powder-50g-jar-buy-1-get-1-free-500x500.jpg"
+                    alt="" width="100%" height="300px">
+                <h3>Continental Coffee</h3>
+                <p>Continental Coffee is another popular coffee brand that was established in the year 2016 by Challa
+                    Rajendra Prasad. The company is headquartered in Hyderabad, Telangana. The brand was formed to share
+                    its love for high-quality coffee with the world. The company incorporates about 30% Chicory in its
+                    manufacturing of coffee and also, for offering the best taste and aroma even that is even more
+                    sensational.
+
+                </p>
+            </div>
+            <div class="col"><img src="https://im.whatshot.in/img/2022/Mar/in-story-640x400-3-1648449461.jpg" alt=""
+                    width="100%" height="300px">
+                <h3>Seven Beans Coffee</h3>
+                <p>Seven Beans Coffee is an enterprise between Indian coffee planters and Italian roasters. The company
+                    was founded in 2013 in partnership with the Italian company, Caffe L’Antico. Its headquarter is
+                    situated in Bengaluru, Karnataka. The company uses Arabica and Robusta varieties of coffee beans.
+                    The coffee grown in the hills of Chikmagalur in the state of Karnataka is roasted using traditional
+                    Italian techniques to produce exquisite gourmet coffees assured to elevate the senses.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Galleryyy  -->
+    <div id="gallery-link" style="background-color: blanchedalmond ; margin-top: 40px;">
+        <h3 id="about-coffee-heading">Our Gallery</h3>
+        <div id="gallery-container">
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/3879495/pexels-photo-3879495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px">
+            </div>
+
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/20349383/pexels-photo-20349383/free-photo-of-cups-of-coffee-and-cake-behind.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/144253/coffee-coffee-cup-porcelain-coffee-beans-144253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/2351275/pexels-photo-2351275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/428310/pexels-photo-428310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px">
+            </div>
+
+            <div class="gallery">
+                <img src="https://images.pexels.com/photos/2956954/pexels-photo-2956954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/2299028/pexels-photo-2299028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/16545082/pexels-photo-16545082/free-photo-of-cup-of-coffee-with-a-daisy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px"><img
+                    src="https://images.pexels.com/photos/3361170/pexels-photo-3361170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="" height="400px" width="350px">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Contact us  -->
+    <div id="contact-us" class="contact-container">
+        <h3 id="about-coffee-heading" style="margin-top: 10px;">Have Some Query?</h3>
+        <div class="contact-section">
+            <input type="text" placeholder="Enter Your Name" class="form-control">
+            <input type="text" placeholder="Enter Your Address" class="form-control">
+            <textarea name="" id="" placeholder="Enter Your Query" rows="5" cols="8" class="form-control"></textarea>
+
+            <button>Send</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- footer  -->
+
+    <div id="footer">
+        <div class="footer-col">
+            <h1 style="background-color: transparent;">Koffeeee <i class="fa-solid fa-mug-saucer"></i></h1>
+            <p style="background-color: transparent;" class="address">3 Santa Cir Johnston,<br>RI 02919</p>
+            <div id="footer-icon">
+                <a href=""> <i class="fa-brands fa-facebook"
+                        style="padding: 5px; border-radius: 50px; font-size: 25px;color: #fff;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"
+                        style="padding: 5px; border-radius: 50px; font-size: 25px;color: #fff;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"
+                        style="padding: 5px; border-radius: 50px; font-size: 25px; color: #fff;"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"
+                        style="padding: 5px; border-radius: 50px; font-size: 25px; color: #fff;"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"
+                        style="padding: 5px; border-radius: 50px; font-size: 25px; color: #fff;"></i></a>
+
+            </div>
+        </div>
+        <div class="footer-col">
+            <h1 style="background-color: transparent;">Company</h1>
+            <p style="background-color: transparent;">About Us</p>
+            <p style="background-color: transparent;">Career</p>
+            <p style="background-color: transparent;">How it Works</p>
+        </div>
+        <div class="footer-col">
+            <h1 style="background-color: transparent;">Policy</h1>
+            <p style="background-color: transparent;">FAQ</p>
+            <p style="background-color: transparent;">Privacy</p>
+            <p style="background-color: transparent;">Shipping</p>
+        </div>
+        <div class="footer-col">
+            <h1 style="background-color: transparent;">Get in Touch</h1>
+            <p style="background-color: transparent;">+972 362 896 25</p>
+            <p style="background-color: transparent;">delicious@example.com</p>
+        </div>
+
+
+
+    </div>
+    <hr>
+    <footer> <b> &copy; 2024 Koffeeee.ALL RIGHT RESERVED</b></footer>
+
+</body>
+
+</html>
