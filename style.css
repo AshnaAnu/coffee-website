@@ -273,6 +273,7 @@ body {
     /* border: 1px solid black; */
     margin-bottom: 10px;
     padding:10px 40px;
+    
 
 
 }
@@ -282,7 +283,8 @@ body {
     border-radius: 5px;
     transition: all 0.3s ease;
     background-color: blanchedalmond;
-    margin: 10px;
+    margin-bottom: 20px;
+    
 
 }
 
